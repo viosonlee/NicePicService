@@ -1,0 +1,17 @@
+datasourceUrl: http://www.xmeim.com
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/nice-pic
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#context:
+#  listener:
+#    classes: lee.vioson.nicepicservice.ApplicationStartup
+server:
+  port: 8082
+  context-path: /nicepic
